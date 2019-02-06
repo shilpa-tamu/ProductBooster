@@ -1,0 +1,23 @@
+﻿Customer Data Analysis (CDA) v0.1
+
+**************************************************************************
+SUMMARY
+**************************************************************************
+Certain e-Commerce companies are facing a gradual decline in their sales. This has caused considerable drop in the companies' total revenue and a decrease in market standing. 
+As a direct impact, companies are losing their customer base to the competitors, thereby incurring a drop in market share. After analyzing the historical sales trends and contrasting 
+the projected sales data with the actual sales data, we have been able to identify the deflection point. The root cause has been identified to be the complete migration of the companies'
+ digital sales platform to support operations only via mobile app after discontinuing the support for their desktop website. We are proposing a twin-step solution to tackle this problem. 
+ The e-commerce companies should reintroduce the desktop website sales platform while advertising the re-launch of the same. These steps will promote re-entry of the customers who were lost 
+ due to the decrease in accessibility, thereby contributing to an overall increase in sales.
+**************************************************************************
+COMMENTS
+**************************************************************************
+We have trimmed our dataset to showcase and utilize test data of 1000 rows (originally 100,000 rows) after making the following assessments:
+1. While loading our complete dataset (approx. 5MB), Customer Data and Order Data upload took very less time in our test run, while loading Relation data took 30-35 minutes on a system with 4GB of RAM.
+2. We suspect deletion of any previously created nodes and relationships (if large dataset) would also consume a considerable amount of time before we start loading the new data.
+**************************************************************************
+SETUP
+**************************************************************************
+1. Create a folder called "import" under the default.graphdb folder in your local Neo4j installation directory.
+2. Copy the contents of the project "data" folder to the new folder created in step 1.
+
